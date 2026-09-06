@@ -1,9 +1,8 @@
 cat >test.cpp <<EOF
-#include<iostream>
-using namespace std;
-int main()
+#include <iostream>
+int main() 
 {
-    cout<<"hello world"<<endl;
+    cout<<9/8<<4*(6+3)%5<<(4*6+3)%5<<endl;
     return 0;
 }
 EOF

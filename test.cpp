@@ -1,6 +1,5 @@
-cat>test.cpp<<EOF
 #include<iostream>
-using namespce std;
+using namespace std;
 int main()
 {
     cout<<"8000秒=";
@@ -9,4 +8,3 @@ int main()
     cout<<8000%3600%60<<"second"<<endl;
     return 0;
 }
-EOF

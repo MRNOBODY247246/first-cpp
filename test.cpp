@@ -1,10 +1,9 @@
+
 #include<iostream>
 using namespace std;
 int main()
 {
-    cout<<"8000秒=";
-    cout<<8000/3600<<"hour";
-    cout<<(8000%3600)/60<<"minute";
-    cout<<8000%3600%60<<"second"<<endl;
+    cout<<"5个工人6天能铺";
+    cout<<90.0/3/3*5*6<<"平方米地板砖。"<<endl;
     return 0;
 }

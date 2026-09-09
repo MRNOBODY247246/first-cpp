@@ -1,8 +1,10 @@
 #include<iostream>
+#include <iomanip>
 using namespace std;
 int main()
 {
-    cout<<15*3/2<<endl;
-    cout<<15*3/2.0>>endl;
+    cout<<"9/8="<<9/8<<"9.0/8="<<9.0/8<<"9/8.0="<<9/8.0<<"9.0/8.0="<<9.0/8.0<<endl;
+    cout<<"10.0/6.0="<<10.0/6.0<<endl;
+    cout<<"10.0/6.0="<<fixed<<setprecision(8)<<10.0/6.0<<endl;
     return 0;
 }

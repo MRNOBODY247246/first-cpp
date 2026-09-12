@@ -1,11 +1,9 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
-    int a;
-    a=65;
-    cout<<a<<endl;
-    a=100;
+    float a;
+    a=65.5;
     cout<<a<<endl;
     return 0;
 }

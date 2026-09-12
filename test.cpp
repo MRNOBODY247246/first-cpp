@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    float a;
-    a=65.5;
-    cout<<a<<endl;
+    float x=7.5;
+    float y=10.6;
+    cout<<"area of a rectangle:"<<x*y<<endl;
     return 0;
 }

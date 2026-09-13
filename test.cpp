@@ -2,8 +2,10 @@
 using namespace std;
 int main()
 {
-    float x=7.5;
-    float y=10.6;
-    cout<<"area of a rectangle:"<<x*y<<endl;
+    float radius;
+    float area;
+    radius=7;
+    area=3.1415926*radius*radius;
+    cout<<"Circular area ="<<area<<endl;
     return 0;
 }

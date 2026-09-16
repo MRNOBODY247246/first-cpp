@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    float x,,y,t;
+    float x,y,t;
     x=10.5;
     y=30.6;
     cou<<x<<" "<<y<<endl;

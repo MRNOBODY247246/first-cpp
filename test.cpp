@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
-    int a,b;
-    a=b=3;
-    a+=b;
-    cout<<a<<endl;
-    cout<<b<<endl;
+    float x,,y,t;
+    x=10.5;
+    y=30.6;
+    cou<<x<<" "<<y<<endl;
+    t=x;x=y;y=t;
+    cout<<x<<" "<<y<<endl;
     return 0;
 }

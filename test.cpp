@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    int a=3,b=3,c=3;
-    cout<<++a<<""<<b++<<""<<c<<endl;
-    cout<<a<<""<<b<<""<<c<<endl;
-    return 0;
+    int x,y,z;
+    x=y=1;
+    z=x++-1;
+    cout<<x<<" "<<z<<endl;
 }

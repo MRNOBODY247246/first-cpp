@@ -1,10 +1,8 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 int main()
 {
-    cout<<"ceil(3.14)="<<ceil(3.141)<<"floor(3.14)="<<floor(3.14)<<endl;
-    cout<<"4^3.0="<<pow(4,3.0)<<endl;
-    cout<<"sqrt(9)"<<sqrt(9)<<endl;
+    cout<<"5年级分得树苗="<<(float)540/280*120<<endl;
+    cout<<"6年级分得树苗="<<(float)540/280*160<<endl;
     return 0;
 }

@@ -2,11 +2,8 @@
 using namespace std;
 int main()
 {
-    const float PI=3.14159265;
-    float radius;
-    float area;
-    radius=7;
-    area=PI*radius*radius;
-    cout<<"circular area ="<<area<<endl;
+    int a=3,b=3,c=3;
+    cout<<++a<<""<<b++<<""<<c<<endl;
+    cout<<a<<""<<b<<""<<c<<endl;
     return 0;
 }

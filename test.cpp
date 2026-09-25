@@ -7,7 +7,7 @@ int main()
     a=1562345672;
     b=1455678343;
     c=1234567832;
-    s=a+b+c;
+    s=(long long)a+b+c;
     cout<<"s="<<s<<endl;
     return 0;
 }

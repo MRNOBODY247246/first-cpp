@@ -2,11 +2,12 @@
 using namespace std;
 int main()
 {
-    int a,h;
-    float s;
-    a=23;
-    h=51;
-    s=a*h/2.0;
-    cout<<s<<endl;
+    int a,b,c;
+    long long s;
+    a=1562345672;
+    b=1455678343;
+    c=1234567832;
+    s=a+b+c;
+    cout<<"s="<<s<<endl;
     return 0;
 }

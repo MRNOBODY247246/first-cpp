@@ -2,11 +2,17 @@
 using namespace std;
 int main()
 {
-    char c1,c2;
-    c1='a';
-    c2='b';
-    c1=c1-32;
-    c2=c2-32;
-    cout<<c1<<' '<<c2<<endl;
+    short a,b;
+    double c;
+    a=b=3;
+    cout<<a<<""<<b<<endl;
+    b=b+5;
+    cout<<a<<""<<b<<endl;
+    a+=b;
+    cout<<a<<""<<b<<endl;
+    c=a/b;
+    cout<<"c="<<c<<endl;
+    c=(double)a/b;
+    cout<<"c="<<c<<endl;
     return 0;
 }

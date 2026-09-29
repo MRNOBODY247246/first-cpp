@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
-    short a,b;
-    double c;
-    a=b=3;
-    cout<<a<<""<<b<<endl;
-    b=b+5;
-    cout<<a<<""<<b<<endl;
-    a+=b;
-    cout<<a<<""<<b<<endl;
-    c=a/b;
-    cout<<"c="<<c<<endl;
-    c=(double)a/b;
-    cout<<"c="<<c<<endl;
+    int  m,n,num;
+    int t=48;
+    char th;
+    double dou_1,dou_2,dou_3;
+    m=5;n=326;
+    num=t/((float)m/n);
+    dou_1=(double)(n/m);
+    dou_2=n/m;
+    dou_3=(double)n/m;
+    th=(double)n/m;
+    cout<<num<<","<<dou_1<<","<<dou_2<<","<<dou_3
+<<","<<th<<endl;
     return 0;
 }

@@ -2,17 +2,12 @@
 using namespace std;
 int main()
 {
-    int  m,n,num;
-    int t=48;
-    char th;
-    double dou_1,dou_2,dou_3;
-    m=5;n=326;
-    num=t/((float)m/n);
-    dou_1=(double)(n/m);
-    dou_2=n/m;
-    dou_3=(double)n/m;
-    th=(double)n/m;
-    cout<<num<<","<<dou_1<<","<<dou_2<<","<<dou_3
-<<","<<th<<endl;
+    int x,y,x1,x2,x3;
+    cin>>x;
+    x1=x/100;
+    x2=(x-x1*100)/10;
+    x3=x%10;
+    y=x3*100+x2*10+x1;
+    cout<<y<<endl;
     return 0;
 }

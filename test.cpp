@@ -2,12 +2,15 @@
 using namespace std;
 int main()
 {
-    int x,y,x1,x2,x3;
-    cin>>x;
-    x1=x/100;
-    x2=(x-x1*100)/10;
-    x3=x%10;
-    y=x3*100+x2*10+x1;
-    cout<<y<<endl;
+    char c1,c2;
+    int a;
+    float b;
+    cout<<"输入："<<endl;
+    cin>>c1>>c2>>a>>b;
+    cout<<"输出："<<endl;
+    cout<<c1<<endl;
+    cout<<c2<<endl;
+    cout<<a<<endl;
+    cout<<b<<endl;
     return 0;
 }

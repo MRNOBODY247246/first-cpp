@@ -1,16 +1,15 @@
 #include<iostream>
+#include<cmath>
+#include<iomanip>
 using namespace std;
 int main()
 {
-    char c1,c2;
-    int a;
-    float b;
-    cout<<"输入："<<endl;
-    cin>>c1>>c2>>a>>b;
-    cout<<"输出："<<endl;
-    cout<<c1<<endl;
-    cout<<c2<<endl;
-    cout<<a<<endl;
-    cout<<b<<endl;
+    double b,d;
+    int c;
+    cin>>b;
+    c=int(b/30.48);
+    d=fmod(b,30.48)/2.54;
+    cout<<c<<endl;
+    cout<<fixed<<setprecision(2)<<d<<endl;
     return 0;
 }

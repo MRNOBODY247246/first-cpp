@@ -1,14 +1,17 @@
 #include<iostream>
-#include<iomanip>
 using namespace std;
 int main()
 {
-    char a;
-    double b;
-    int c;
-    cin>>a>>b>>c;
-    cout<<a<<endl;
-    cout<<fixed<<setprecision(2)<<b<<endl;
-    cout<<c<<endl;
+    char guidepost;
+    double d,s,k,cost;
+    double time,l,totalcost;
+    cin>>guidepost;
+    cin>>d>>s>>k>>cost;
+    time=d/s;
+    l=d/k;
+    totalcost=l*cost;
+    cout<<guidepost<<endl;
+    cout<<"time="<<time<<endl;
+    cout<<"totalpost="<<totalcost<<endl;
     return 0;
 }
